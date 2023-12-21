@@ -3,14 +3,6 @@
 OpenVPN Community release [OpenVPN-2.6.7-I001-amd64.msi](https://openvpn.net/community-downloads/)
 ### Installation
 - Full install, customize with easyrsa option
-### Configuration
-- Folder easy-rsa contains current CA
-- Server/Client key pairs, certificates can be created using [this instruction](./easy-rsa/doc/EasyRSA3-OpenVPN-Howto%20%E2%80%93%20OpenVPN%20Community.html)
-### Single fie Server/Client config files sample
-[Server: ./config/server/vpn-server-single-file.ovpn](./config/server/vpn-server-single-file-nopass.ovpn) 
-
-[Client: ./config/client/hhx-single-file.ovpn](./config/client/hhx-single-file.ovpn)
-
 ### Current issue: 
 - Need manually share network connection with openVPN TAP-windows6 driver
 - openVPN TAP-windows6 driver does not always work correctly.
